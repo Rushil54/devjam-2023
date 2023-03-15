@@ -78,8 +78,6 @@
     border-bottom: 0.1px solid #8f7d7c;
     border-top: 3px solid #fa0d05;
     border-radius: 10px;
-
-
     margin: 5px;
     padding: 5px;
 }
@@ -89,10 +87,8 @@
     border-right: 0.1px solid #8f7d7c;
     border-bottom: 0.1px solid #8f7d7c;
     border-top: 5px solid #fa0d05;
-
     border-radius: 10px;
     opacity: 0.7;
-
     margin: 5px;
     padding: 5px;
 }
