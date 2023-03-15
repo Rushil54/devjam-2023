@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="sportify.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sectioncrickethome">
+        <div class="cricket-home-bg ">
+            <div class="upper_logo_card d-flex flex-row">
+                <img src="https://www.creativefabrica.com/wp-content/uploads/2020/02/15/Sports-Logo-Graphics-1-15-580x386.jpg" class="upper_logo_card-image">
+                <p class="upper_logo_card-name">
+                    <span class="sport">Sport</span><span class="ify">ify</span>
+                </p>
+            </div>
+            <div class="alert alert-primary alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+                <strong>Welcome!</strong> Recommended Videos for You. <a onclick="display('sectionvideos')" class="sport-name1 "> Click Here</a> to view.
+            </div>
+            <div class="d-flex flex-row justify-content-end"><img src="https://cdn-icons-png.flaticon.com/512/4889/4889159.png " class="navbar" onclick="display('sectioncrickethome1')" /></div>
+            <h1 class="cricket-home-heading">
+                Watch Live
+            </h1>
+            <div class="carousel ">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.hotstar.com/in/sports/cricket/australia-tour-of-india-202223/india-vs-australia-m707811/match-clips/india-win-series-enter-wtc-final/1540022076" target="_blank">
+                                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6573/1486573-h-b7c189e798a8" class="d-block w-100" alt="d-block">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.fifa.com/fifaplus/en/watch/63XwuAOoqYgNW0Q3E9PxJG" target="_blank">
+                                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9535/1439535-h-140f766b1d03" class="d-block w-100 " alt="">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.hotstar.com/in/sports/kabaddi/2022-pink-panthers-dash-to-glory/1260126471" target="_blank"> <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4696/1434696-h-80f16c44d5fd" class="d-block w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <hr />
+
+            <h1 class="cricket-home-heading">Live Scores</h1>
+            <div class="sport-cards d-flex flex-row justify-content-center">
+                <a class="sport-container d-flex flex-column" href="https://www.cricbuzz.com" target="_blank">
+                    <img src="https://images.vexels.com/media/users/3/240076/isolated/preview/0e6c0d8799dc06d116bd376820a6b091-cricket-bat-player-cut-out.png" class="sport-images" />
+                    <p class="sport-name">Cricket</p>
+                </a>
+                <a class="sport-container d-flex flex-column" href="https://www.flashscore.in/football/" target="_blank">
+                    <img src="https://static.vecteezy.com/system/resources/previews/010/135/397/original/cartoon-football-soccer-player-man-in-action-png.png" class="sport-images" />
+                    <p class="sport-name">Football</p>
+                </a>
+            </div>
+
+            <div class="sport-cards d-flex flex-row justify-content-center">
+                <a class="sport-container d-flex flex-column" href="https://www.prokabaddi.com/schedule-fixtures-results" target="_blank">
+                    <img src="https://i.pinimg.com/222x/bd/0d/8b/bd0d8be44d70b5985a366e5c658526aa.jpg" class="sport-images" />
+                    <p class="sport-name">Kabaddi</p>
+                </a>
+                <a class="sport-container d-flex flex-column" href="https://www.livescore.in/hockey/" target="_blank">
+                    <img src="https://www.pngmart.com/files/15/Ball-Silhouette-Field-Hockey-PNG-Transparent-Image.png" class="sport-images" />
+                    <p class="sport-name">Hockey</p>
+                </a>
+            </div>
+            <hr /><br />
+            <div class="highlights-card d-flex flex-row justify-content-center" onclick="sectioncrickethighlights">
+                <img src="https://bevouliin.com/wp-content/uploads/2014/02/video-television-tv-movie-logo-template-preview-bevouliin.jpg" class="logo" />
+                <h1 class="highlights-heading" onclick="display('sectioncrickethighlights')">Watch Highlights</h1>
+
+            </div>
+            <br />
+
+
+            <hr />
+            <br />
+            <h1 class="cricket-home-heading">Recommended for you</h1>
+            <p class="recommended-card-game-name">Tap on "Follow" to get latest news,scores,videos
+            <div class="recommended-cards d-flex flex-row justify-content-center">
+                <div class="recommended-card ">
+                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/e4/95/3c/e4953c38-80a2-6de2-f5c5-9d88000879b6/AppIcon-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">ICC</h1>
+                    <p class="recommended-card-game-name">Cricket</p>
+                    <div class="text-center"><a href="https://www.icc-cricket.com/homepage" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://m.media-amazon.com/images/I/71FK-QVpeCL.png" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">IPL</h1>
+                    <p class="recommended-card-game-name">Cricket</p>
+                    <div class="text-center"><a href="https://www.iplt20.com/auction/" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://cdn.dribbble.com/users/3097777/screenshots/9445583/media/78f897cc66a6c99def9d5ed1e0f3333e.png" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">Asia Cup</h1>
+                    <p class="recommended-card-game-name">Cricket</p>
+                    <div class="text-center"><a href="https://www.google.com/search?q=asia+cup+cricket+home" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="recommended-card ">
+                    <img src="https://b.fssta.com/uploads/application/soccer/competition-logos/EnglishPremierLeague.vresize.350.350.medium.0.png" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">Premier <br /> League</h1>
+                    <p class="recommended-card-game-name">Football</p>
+                    <div class="text-center"><a href="https://www.google.com/search?q=premier+league" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://play-lh.googleusercontent.com/YBsOplMbXCeLAkc09-KreN1WhQhyx9G5ceCoQuLykrkgSxLJRzKGeaw-uZLcjkwGLpA=w240-h480-rw" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">La <br /> Liga</h1>
+                    <p class="recommended-card-game-name">Football</p>
+                    <div class="text-center"><a href="https://www.google.com/search?q=la+liga" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://www.indiantelevision.com/sites/default/files/images/tv-images/2014/05/09/pro_kabaddi_logo.jpg" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">Pro <br />Kabaddi</h1>
+                    <p class="recommended-card-game-name">Kabaddi</p>
+                    <a href="https://www.prokabaddi.com" target="_blank"><button class="follow-button">Follow</button></a>
+                </div>
+
+            </div><br />
+            <div class="text-center"> <a class="sport-name1 " href="https://www.google.com/search?q=all+sports+leagues" target=_blank>Viewmore</a></div>
+
+            <br />
+            <hr />
+
+            <div class="bottom">
+                <p class="follow">Reach Us </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" class="reach-logo" /></a>
+                    <a href="" target="_blank"> <img src="https://i.pinimg.com/236x/2a/44/27/2a4427e1332b3964d7ea36097edb00c3.jpg" class="reach-logo" />
+                    </a>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="" target="_blank"> <img src="https://netstorage.ringcentral.com/appext/logo/052fU9ABQKGXNBFXqJu3fg~8FKyqVZUTRKK4BMTDkN8lw/6497310c-8ea2-464a-937e-beb936a707bf.png" class="reach-logo" />
+                    </a> <a href="" target="_blank"> <img src="https://pngimg.com/uploads/linkedIn/small/linkedIn_PNG13.png" class="reach-logo" />
+                    </a>
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <div id="sectionvideos">
+        <div class="cricket-home-bg">
+            <h1 class="cricket-home-heading">
+                Recommended Videos
+            </h1>
+            <h1 class="recommendedvideos-card-game-name">Cricket</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-I1HUVzEKok?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Virat's best finishing</p>
+                </div>
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MQSb1J9sodk?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Brathwaite Hits 4 Sixes To Win!</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center">
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mEOBGY4-7JA?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">India's unforgettable win</p>
+                </div>
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bwAVB1pgY4s?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">The Best Bowling Figures</p>
+                </div>
+            </div>
+
+            <h1 class="recommendedvideos-card-game-name">Football</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LtyS7GLb8bI?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Last minute goals that shocked the world</p>
+                </div>
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J3jB4CS0x34?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Messi's perfect ending</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center">
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ny2S4YURXBA?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Impossible Saves</p>
+                </div>
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r_lN52VwrBo?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Unforgettable Goals in Football</p>
+                </div>
+            </div>
+
+            <h1 class="recommendedvideos-card-game-name">Kabaddi</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Scu7iB2dgOU?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Chiyaneh - 19 POINTS for Patna Pirates vs Dabang Delhi</p>
+                </div>
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3B1UH_z5NWc?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">PKL-9 Final</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center">
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vt3hBbgEzjs?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Dubki King's 8 point raid</p>
+                </div>
+                <div class="videos-cards d-flex flex-column">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MpB5dKLOXLk?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="recommended-card-council-name">Pawan Sehrawat's record 39 raid points in a match</p>
+                </div>
+            </div>
+            <div class="text-center"><button class="btn btn-dark" onclick="display('sectioncrickethome')">Back</button></div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="sectioncrickethome1">
+        <div class="cricket-home-bg ">
+            <div class="upper_logo_card d-flex flex-row">
+                <img src="https://www.creativefabrica.com/wp-content/uploads/2020/02/15/Sports-Logo-Graphics-1-15-580x386.jpg" class="upper_logo_card-image">
+                <p class="upper_logo_card-name">
+                    <span class="sport">Sport</span><span class="ify">ify</span>
+                </p>
+            </div>
+            <div class="navbar-bg d-flex flex-row justify-content-end">
+                <p class="follow" onclick="display('sectioncrickethome')">Home</p>
+                <p class="follow" onclick="display('sectioncrickethighlights')">Highlights</p>
+                <p class="follow" onclick="display('sectiontopstories1')">Stories</p>
+                <p class="follow" onclick="display('sectionvideos')"> Videos</p>
+
+                <img src="https://img.icons8.com/officel/2x/close-window.png " onclick="display('sectioncrickethome')" class="navbar" />
+            </div>
+            <h1 class="cricket-home-heading">
+                Watch Live
+            </h1>
+            <div class="carousel">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.hotstar.com/in/sports/cricket/sri-lanka-tour-of-india-202223/india-vs-sri-lanka-m707462/match-clips/india-start-2023-on-a-high-beat-sl/1540020909" target="_blank">
+                                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3980/1443980-h-dbe53f661f17" class="d-block w-100" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.fifa.com/fifaplus/en/watch/63XwuAOoqYgNW0Q3E9PxJG" target="_blank">
+                                <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9535/1439535-h-140f766b1d03" class="d-block w-100 " alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.hotstar.com/in/sports/kabaddi/2022-pink-panthers-dash-to-glory/1260126471" target="_blank"> <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4696/1434696-h-80f16c44d5fd" class="d-block w-100" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <hr />
+            <h1 class="cricket-home-heading">Live Scores</h1>
+            <div class="sport-cards d-flex flex-row justify-content-center">
+                <a class="sport-container d-flex flex-column" href="https://www.cricbuzz.com" target="_blank">
+                    <img src="https://images.vexels.com/media/users/3/240076/isolated/preview/0e6c0d8799dc06d116bd376820a6b091-cricket-bat-player-cut-out.png" class="sport-images" />
+                    <p class="sport-name">Cricket</p>
+                </a>
+                <a class="sport-container d-flex flex-column" href="https://www.flashscore.in/football/" target="_blank">
+                    <img src="https://static.vecteezy.com/system/resources/previews/010/135/397/original/cartoon-football-soccer-player-man-in-action-png.png" class="sport-images" />
+                    <p class="sport-name">Football</p>
+                </a>
+            </div>
+
+            <div class="sport-cards d-flex flex-row justify-content-center">
+                <a class="sport-container d-flex flex-column" href="https://www.prokabaddi.com/schedule-fixtures-results" target="_blank">
+                    <img src="https://i.pinimg.com/222x/bd/0d/8b/bd0d8be44d70b5985a366e5c658526aa.jpg" class="sport-images" />
+                    <p class="sport-name">Kabaddi</p>
+                </a>
+                <a class="sport-container d-flex flex-column" href="https://www.livescore.in/hockey/" target="_blank">
+                    <img src="https://www.pngmart.com/files/15/Ball-Silhouette-Field-Hockey-PNG-Transparent-Image.png" class="sport-images" />
+                    <p class="sport-name">Hockey</p>
+                </a>
+            </div>
+            <hr /><br />
+            <div class="highlights-card d-flex flex-row justify-content-center" onclick="sectioncrickethighlights">
+                <img src="https://bevouliin.com/wp-content/uploads/2014/02/video-television-tv-movie-logo-template-preview-bevouliin.jpg" class="logo" />
+                <h1 class="highlights-heading" onclick="display('sectioncrickethighlights')">Watch Highlights</h1>
+
+            </div>
+
+            <br />
+            <hr />
+
+
+
+
+
+
+
+            <h1 class="cricket-home-heading">Recommended for you</h1>
+            <p class="recommended-card-game-name">Tap on "Follow" to get latest news,scores,videos
+            <div class="d-flex flex-row justify-content-center">
+                <div class="recommended-card ">
+                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/e4/95/3c/e4953c38-80a2-6de2-f5c5-9d88000879b6/AppIcon-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">ICC</h1>
+                    <p class="recommended-card-game-name">Cricket</p>
+                    <div class="text-center"><a href="https://www.icc-cricket.com/homepage" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://m.media-amazon.com/images/I/71FK-QVpeCL.png" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">IPL</h1>
+                    <p class="recommended-card-game-name">Cricket</p>
+                    <div class="text-center"><a href="https://www.iplt20.com/auction/" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://cdn.dribbble.com/users/3097777/screenshots/9445583/media/78f897cc66a6c99def9d5ed1e0f3333e.png" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">Asia Cup</h1>
+                    <p class="recommended-card-game-name">Cricket</p>
+                    <div class="text-center"><a href="https://www.google.com/search?q=asia+cup+cricket+home" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="recommended-card ">
+                    <img src="https://b.fssta.com/uploads/application/soccer/competition-logos/EnglishPremierLeague.vresize.350.350.medium.0.png" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">Premier <br /> League</h1>
+                    <p class="recommended-card-game-name">Football</p>
+                    <div class="text-center"><a href="https://www.google.com/search?q=premier+league" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://play-lh.googleusercontent.com/YBsOplMbXCeLAkc09-KreN1WhQhyx9G5ceCoQuLykrkgSxLJRzKGeaw-uZLcjkwGLpA=w240-h480-rw" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">La <br /> Liga</h1>
+                    <p class="recommended-card-game-name">Football</p>
+                    <div class="text-center"><a href="https://www.google.com/search?q=la+liga" target="_blank"><button class="follow-button">Follow</button></a></div>
+                </div>
+
+                <div class="recommended-card ">
+                    <img src="https://www.indiantelevision.com/sites/default/files/images/tv-images/2014/05/09/pro_kabaddi_logo.jpg" class="recommended-card-image" />
+                    <h1 class="recommended-card-council-name">Pro <br />Kabaddi</h1>
+                    <p class="recommended-card-game-name">Kabaddi</p>
+                    <a href="https://www.prokabaddi.com" target="_blank"><button class="follow-button">Follow</button></a>
+                </div>
+
+            </div><br />
+            <div class="text-center"> <a class="sport-name1 " href="https://www.google.com/search?q=all+sports+leagues" target=_blank>Viewmore</a></div>
+
+            <br />
+            <hr />
+
+
+
+
+            <div class="bottom">
+                <p class="follow">Reach Us </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" class="reach-logo" /></a>
+                    <a href="" target="_blank"> <img src="https://i.pinimg.com/236x/2a/44/27/2a4427e1332b3964d7ea36097edb00c3.jpg" class="reach-logo" />
+                    </a>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="" target="_blank"> <img src="https://netstorage.ringcentral.com/appext/logo/052fU9ABQKGXNBFXqJu3fg~8FKyqVZUTRKK4BMTDkN8lw/6497310c-8ea2-464a-937e-beb936a707bf.png" class="reach-logo" />
+                    </a> <a href="" target="_blank"> <img src="https://pngimg.com/uploads/linkedIn/small/linkedIn_PNG13.png" class="reach-logo" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="sectioncrickethighlights">
+        <div class="cricket-highlights-bg">
+            <div class="alert alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">x</span>
+                </button>
+                <strong>Hello!</strong> Click on following cards to watch Highlights
+            </div>
+            <h1 class="cricket-home-heading">Highlights</h1>
+            <div class="sport-cards d-flex flex-row justify-content-center">
+                <a class="sport-container d-flex flex-column" href="https://www.youtube.com/results?search_query=cricket+highlights" target="_blank">
+                    <img src="https://images.vexels.com/media/users/3/240076/isolated/preview/0e6c0d8799dc06d116bd376820a6b091-cricket-bat-player-cut-out.png" class="sport-images" />
+                    <p class="sport-name">Cricket</p>
+                </a>
+                <a class="sport-container d-flex flex-column" href="https://www.youtube.com/results?search_query=football+highlights" target="_blank">
+                    <img src="https://pngimg.com/uploads/football_player/football_player_PNG30.png" class="sport-images" />
+                    <p class="sport-name">Football</p>
+                </a>
+            </div>
+
+            <div class="sport-cards d-flex flex-row justify-content-center">
+                <a class="sport-container d-flex flex-column" href="https://www.youtube.com/results?search_query=kabaddi+highlights" target="_blank">
+                    <img src="https://i.pinimg.com/222x/bd/0d/8b/bd0d8be44d70b5985a366e5c658526aa.jpg" class="sport-images" />
+                    <p class="sport-name">Kabaddi</p>
+                </a>
+                <a class="sport-container d-flex flex-column" href="https://www.youtube.com/results?search_query=hockey+highlights" target="_blank">
+                    <img src="https://www.pngmart.com/files/15/Ball-Silhouette-Field-Hockey-PNG-Transparent-Image.png" class="sport-images" />
+                    <p class="sport-name">Hockey</p>
+                </a>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn btn-dark" onclick="display('sectioncrickethome')">Back</button>
+
+            </div>
+
+            <div class="bottom ">
+                <p class="follow">Reach Us </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" class="reach-logo" /></a>
+                    <a href="" target="_blank"> <img src="https://i.pinimg.com/236x/2a/44/27/2a4427e1332b3964d7ea36097edb00c3.jpg" class="reach-logo" />
+                    </a>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="https://twitter.com/HarishNandre" target="_blank"> <img src="https://netstorage.ringcentral.com/appext/logo/052fU9ABQKGXNBFXqJu3fg~8FKyqVZUTRKK4BMTDkN8lw/6497310c-8ea2-464a-937e-beb936a707bf.png" class="reach-logo" />
+                    </a> <a href="https://www.linkedin.com/in/harishnandre/" target="_blank"> <img src="https://pngimg.com/uploads/linkedIn/small/linkedIn_PNG13.png" class="reach-logo" />
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <div id="sectiontopstories1">
+        <div class="cricket-home-bg">
+            <h1 class="cricket-home-heading">Top Stories</h1>
+            <h1 class="news-heading">Surya’s set to dazzle home crowd in T20 vs Lanka – his first game at Wankhede since international debut</h1>
+            <img src="https://images.indianexpress.com/2023/01/Suryakumar-Yadav-2-1.jpg" class="news-images" />
+            <p class="news-para">
+                THE walk from the dressing room to the ground felt different this time. All his life, Suryakumar Yadav had wanted to walk in a blue jersey at the Wankhede Stadium. The day finally arrived in 2023, 12 years after his first-class debut
+                As he came down the stairs, there were officials whom he had seen while growing up, groundsmen whom he had seen over the last decade, and a few fans who waited to take his pictures. Yadav acknowledged everyone.
+                “Hello Sir,” was the common greeting to his seniors. To the world, he is SKY, but in this corner of the world, he is just Surya. The world is amazed by his skills but many here aren’t. Here, one finds people saying ‘I told you he will play for India.’
+            </p>
+            <div class="d-flex flex-row justify-content-between"> <button class="btn btn-dark" onclick="display('sectiontopstories5')">⇐</button>
+                <button class="btn btn-dark" onclick="display('sectiontopstories2')">⇒</button>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center"> <button class="btn btn-dark " onclick="display('sectioncrickethome')">Homepage</button>
+            </div>
+            <div class="text-center"> <a class="sport-name1 " href="https://indianexpress.com/section/sports/" target=_blank>Viewmore</a>
+            </div>
+            <div class="bottom ">
+                <p class="follow">Reach Us </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" class="reach-logo" /></a>
+                    <a href="" target="_blank"> <img src="https://i.pinimg.com/236x/2a/44/27/2a4427e1332b3964d7ea36097edb00c3.jpg" class="reach-logo" />
+                    </a>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="https://twitter.com/HarishNandre" target="_blank"> <img src="https://netstorage.ringcentral.com/appext/logo/052fU9ABQKGXNBFXqJu3fg~8FKyqVZUTRKK4BMTDkN8lw/6497310c-8ea2-464a-937e-beb936a707bf.png" class="reach-logo" />
+                    </a> <a href="https://www.linkedin.com/in/harishnandre/" target="_blank"> <img src="https://pngimg.com/uploads/linkedIn/small/linkedIn_PNG13.png" class="reach-logo" />
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
