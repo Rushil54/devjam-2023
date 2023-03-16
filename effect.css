@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    place-items: center;
+    background-color: black;
+  }
+  
+  h1 {
+    font-family: 'Space Mono', monospace;
+    color: white;
+  }
+  
+  h1:hover {
+    background-color: white;
+    color: black;
+  }
+  
