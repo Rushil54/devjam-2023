@@ -334,3 +334,27 @@
 .bottom-cards-scores {
     padding-top: 2px;
 }
+
+.news-heading {
+    font-family: "Roboto";
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.news-images {
+    border-radius: 10px;
+    width: 100vw;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.news-para {
+    font-family: "Roboto";
+    color: #918d8d;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
