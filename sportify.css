@@ -281,7 +281,6 @@
     border-radius: 20px;
     color: white;
 }
-
 .follow-button:after {
     padding-left: 20px;
     padding-right: 20px;
@@ -292,6 +291,7 @@
     font-size: 13px;
     border-radius: 20px;
     color: red;
+
 }
 
 .recommendedvideos-card-game-name {
@@ -314,6 +314,7 @@
     margin: 10px;
 }
 
+
 .for-you-india-matches-heading {
     text-decoration: underline;
     padding: 10px;
@@ -321,7 +322,10 @@
     font-family: "Bree Serif";
     text-align: center;
     font-size: 18px;
+
 }
+
+
 
 .bottom-cards-small {
     color: #505152;
