@@ -362,3 +362,176 @@
 }
 
 
+
+
+.for-you-india-matches-heading {
+    text-decoration: underline;
+    padding: 10px;
+    color: black;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-size: 18px;
+}
+
+.bottom-cards-small {
+    color: #505152;
+    padding-bottom: 0px;
+    font-size: 12px;
+    font-family: "Roboto";
+    padding-top: 5px;
+}
+
+.bottom-cards-scores {
+    padding-top: 2px;
+}
+
+.result {
+    font-size: 12px;
+    color: #043385;
+}
+
+.for-you-card {
+    filter: drop-shadow(1px 2px 4px black);
+    transition-duration: 0.2s;
+    background-color: #fcf9de;
+    border-radius: 10px;
+    color: #bfbcbb;
+    padding: 10px 25px 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px;
+}
+
+.for-you-card:hover {
+    filter: drop-shadow(2px 4px 8px black);
+    cursor: pointer;
+    background-color: #ffeec7;
+    border-radius: 10px;
+   transform: translate(0px,10px);
+    padding: 10px 25px 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px;
+}
+
+.india-matches-view-more {
+    font-family: "Roboto";
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    color: red;
+    transition: red .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-align: center;
+    font-weight: bold;
+}
+
+.india-matches-view-more:hover {
+    color: white;
+    box-shadow: inset 100px 0 0 0 red;
+    text-decoration: none;
+}
+
+.india-matches-bg {
+    padding: 10px;
+}
+
+.india-matches-heading {
+    font-family: "Roboto";
+    background-color: black;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+}
+
+.india-matches-date {
+    font-family: "Roboto";
+    padding-left: 10px;
+    color: #7a7878;
+    font-size: 15px;
+
+}
+
+.india-matches-team-photo {
+    width: 50px;
+    height: 50px;
+
+}
+
+.ind-aus-matches-scores {
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.india-matches-result {
+    font-family: "Roboto";
+    text-align: center;
+    color: #bd0208;
+    font-weight: bold;
+}
+
+.highlights-imgs {
+    padding: 5px;
+    filter: drop-shadow(1px 2px 4px black);
+    border-radius: 10px;
+    width: 180px;
+}
+
+.india-matches-player-card {
+    margin-bottom: 12px;
+    padding: 10px;
+    font-family: "Roboto";
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    filter: drop-shadow(1px 2px 4px black);
+    background-color: #0092c7;
+    border-radius: 5px;
+}
+
+.india-matches-player-card-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.india-matches-player-card-name {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.india-matches-player-pic {
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 100px;
+    height: 100px;
+}
+
+.commentry {
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.more-commentry {
+    color: #2b07f5;
+}
+
+.india-matches-player-card-for-aus {
+    margin-bottom: 7px;
+    padding: 10px;
+    font-family: "Roboto";
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    filter: drop-shadow(1px 2px 4px black);
+    background-color: #fcf644;
+    border-radius: 5px;
+}
+
+.india-matches-view-score {
+    text-align: center;
+    color: #750273;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
